@@ -54,7 +54,7 @@ def rain_callback(channel):
     print(YYYY_, MM_, DD_, HR_, MN_, SEC_, HR3_, HR6_, HR12_)
     
     print("trying database")
-    con = mdb.connect('localhost', 'root', 'Ilgjt75%', 'SkyWeather');
+    con = mdb.connect('localhost', 'root', 'password', 'SkyWeather');
 
     cur = con.cursor()
     print ("before query")
